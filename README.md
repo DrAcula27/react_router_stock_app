@@ -7,11 +7,11 @@
 
 > Per Scholas - Week 12 - "multi-page" React - Assignment: React Router Stock App
 
-> A React app that shows stock information. It features a dashboard that summarizes the stocks, individual stock pages, and an about page that describes the app. It consumes the [Financial Modeling Prep](https://site.financialmodelingprep.com/) API to get its data.
+> A React app that shows stock information. It features a dashboard that summarizes the stocks, individual stock pages, and an about page that describes the app.
 
 ## Demo
 
-![demo](./public/assets/demo.png)
+<!-- ![demo](./src/img/demo.png) -->
 
 ### 🏠 [Homepage](https://github.com/DrAcula27/react_router_stock_app#readme)
 
@@ -25,6 +25,32 @@
 ## Project Details
 
 **This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
+
+Create a React app that displays stock information.
+
+### Required Routes
+
+| Route             | Renders              | Component |
+| ----------------- | -------------------- | --------- |
+| `/`               | "All Stocks"         | Dashboard |
+| `/about`          | "About Page"         | About     |
+| `/stocks/:symbol` | "Info on that stock" | Stock     |
+
+### Required Features
+
+1. Navigation
+   - No matter what route the user is visiting, they should always see a navigation bar at the top of the window.
+   - It should contain links to the "Dashboard" and "About" pages.
+1. Dashboard
+   - If a user visits `/stocks` or clicks "Dashboard" in the navigation bar, they should be directed to the dashboard page.
+   - This page should list all of the stocks, specifically their `name` and `symbol`.
+   - These stocks should be pulled from `stock-data.js`.
+1. About
+   - If a user clicks on "About" in the navigation bar, they should be directed to the about page.
+   - This is just a static page that displays a description of the app.
+1. Stock
+   - If a user clicks on one of the stocks listed in the Dashboard view, they should be directed to an individual stock show view.
+   - This view should display all of that stock's attributes.
 
 ## Available Scripts
 
