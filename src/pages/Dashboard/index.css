@@ -1,0 +1,33 @@
+#stock-table {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#stock-table tr {
+  text-align: left;
+  padding: 10px;
+}
+
+#stock-table td,
+#stock-table th {
+  border-bottom: 1px dashed goldenrod;
+  padding-right: 15px;
+}
+
+#stock-table tr:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#stock-table tr:first-of-type:hover {
+  cursor: default;
+  box-shadow: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

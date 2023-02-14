@@ -1,4 +1,4 @@
-const stocks = [
+const stockData = [
   {
     name: "Apple Inc.",
     symbol: "AAPL",
@@ -55,4 +55,4 @@ const stocks = [
   },
 ];
 
-export default stocks;
+export default stockData;
