@@ -1,0 +1,15 @@
+#current-stock-table {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#current-stock-table tr {
+  text-align: left;
+  padding: 10px;
+}
+
+#current-stock-table td,
+#current-stock-table th {
+  border-bottom: 1px dashed goldenrod;
+  padding-right: 15px;
+}
