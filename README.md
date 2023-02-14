@@ -11,7 +11,7 @@
 
 ## Demo
 
-<!-- ![demo](./src/img/demo.png) -->
+![demo](./src/img/demo.png)
 
 ### 🏠 [Homepage](https://github.com/DrAcula27/react_router_stock_app#readme)
 
