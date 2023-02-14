@@ -1,19 +1,19 @@
-<h1 align="center">Welcome to MERN_boilerplate!</h1>
+<h1 align="center">Welcome to react_router_stock_app!</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D9.1.2-blue.svg" />
   <img src="https://img.shields.io/badge/node-%3E%3D18.12.1-blue.svg" />
 </p>
 
-> Lorem ipsum
+> Per Scholas - Week 12 - "multi-page" React - Assignment: React Router Stock App
 
-> Lorem ipsum
+> A React app that shows stock information. It features a dashboard that summarizes the stocks, individual stock pages, and an about page that describes the app. It consumes the [Financial Modeling Prep](https://site.financialmodelingprep.com/) API to get its data.
 
 ## Demo
 
 ![demo](./public/assets/demo.png)
 
-### 🏠 [Homepage](https://github.com/DrAcula27/MERN_boilerplate#readme)
+### 🏠 [Homepage](https://github.com/DrAcula27/react_router_stock_app#readme)
 
 ## Author
 
@@ -95,16 +95,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Tech Stack
 
-This project uses the MERN stack.
+This project uses the following:
 
-- **M** - <img src="https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg" width="20" height="20" /> [MongoDB](https://www.mongodb.com/)
 - **E** - <img src="https://raw.githubusercontent.com/expressjs/expressjs.com/gh-pages/images/favicon.png" width="20" height="20" /> [Express](https://expressjs.com/)
 - **R** - <img src="https://raw.githubusercontent.com/facebook/react/main/fixtures/attribute-behavior/public/favicon.ico" width="20" height="20" /> [React](https://reactjs.org/)
 - **N** - <img src="https://raw.githubusercontent.com/nodejs/nodejs.org/main/static/images/logos/js-green.svg" width="20" height="20" /> [Node](https://nodejs.org/en/)
-
-## Future Work
-
--
 
 ## Attributions
 
